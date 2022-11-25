@@ -1,0 +1,29 @@
+
+		body{ font-family: monospace,fantasy,cursive,arial;
+			 padding:10 ;
+			 color: black;
+			 background-color: khaki;
+			}
+		nav{ font-weight: bold;
+			color: black;
+			border: 2px solid black;
+			text-align: center;
+			width: 10em;
+			background-color: darkgoldenrod; }
+
+		nav ul{ display: none;
+				list-style: none;
+				margin-top: 20px;
+				padding-top: 30px; }
+
+		nav:hover ul{display: block;}
+
+		nav ul li{ border-right: 2px solid black;
+				background-color: cornsilk;
+				width: 10em;
+				color: black;
+				margin-bottom: 50px;: 
+			 	padding: 50px 30px 50px 80px}
+
+		nav ul li:hover{background-color: goldenrod;}
+		a{text-decoration: none;}
