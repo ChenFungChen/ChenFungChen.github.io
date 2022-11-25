@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+		body{ background-color: oldlace;}
+		em { font-weight: 900;
+			 color: teal; }
+		p  { font-size:14pt; color:olive; }
+		h1 { font-family:serif,fantasy; }
+	</style>
+	<title>New HTML5 Input Types Demo</title>
+</head>
+<body>
+
+	<p><h1>New HTML5 Input Types Demo</h1></p>
+	<p>This form demonstrates the new HTML5 input types and the placeholder, required and autofocus attributes.</p>
+
+	<label>Color:
+		<input type="Color" autofocus />
+	</label><br>
+
+	<form>
+		<label for="Date">Date:</label>
+		<input type="date" name="Date">
+		<input type="submit" value="Submit">
+		<em>(yyyy-mm-dd)</em>
+	</form><br>
+
+	<form>
+		<label for="email">Email:</label>
+		<input type="email" name="email" placeholder="name@domain.com" required>
+		<input type="submit" name="submit" value="submit">
+	</form><br>
+
+	<form>
+		<label for="number">Number:</label>
+		<input type="number" name="number" min="0" max="7" value="4">
+		<em>(Enter a number between 0 and 7)</em>
+	</form><br>
+
+	<form>
+		<label for="range">Range:0</label>
+		<input type="range" name="range" min="0" max="20">20
+	</form><br>
+
+	<form>
+		<label for="search">Search:</label>
+		<input type="search" name="search" placeholder="search query" required>
+	</form><br>
+
+	<form>
+		<label for="time">Time:</label>
+		<input type="time" name="time">
+		<em>(hh:mm)</em>
+	</form><br>
+
+	<input type="submit" value="Submit">
+	<input type="reset" value="Clear">
+
+</body>
+</html>
