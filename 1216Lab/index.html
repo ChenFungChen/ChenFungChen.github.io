@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>1216Lab</title>
+</head>
+<body>
+	<script>
+		var num1, num2;
+		num1=parseInt(window.prompt("Enter the first num"));
+		num2=parseInt(window.prompt("Enter the second num"));
+
+		if(num1>num2){
+			background-color:lightblue;
+			document.writeln(num1+'>'+num2);
+		}else if(num1<num2){
+			background-color:lightgreen;
+			document.writeln(num1+'<'+num2);
+		}else{
+			background-color:lightyellow;
+			document.writeln(num1+'='+num2);
+		}
+	</script>
+		<input type="button" value="1st button" onclick="alert(num1)">
+		<input type="button" value="2st button" onclick="alert(num2)">
+	
+
+</body>
+</html>
