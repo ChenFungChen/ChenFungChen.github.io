@@ -7,22 +7,23 @@
 </head>
 <body>
 	<script>
-		var num1, num2;
+		var num1;
+		var num2;
 		num1=parseInt(window.prompt("Enter the first num"));
 		num2=parseInt(window.prompt("Enter the second num"));
 
 		if(num1>num2){
-			background-color:lightblue;
+			document.body.style.backgroundColor='lightblue';
 			document.writeln(num1+'>'+num2);
 		}else if(num1<num2){
-			background-color:lightgreen;
+			document.body.style.backgroundColor='lightgreen';
 			document.writeln(num1+'<'+num2);
 		}else{
-			background-color:lightyellow;
+			document.body.style.backgroundColor='lightyellow';
 			document.writeln(num1+'='+num2);
 		}
 	</script>
-		<input type="button" value="1st button" onclick="alert(num1)">
+		<p><input type="button" value="1st button" onclick="alert(num1)"></p>
 		<input type="button" value="2st button" onclick="alert(num2)">
 	
 
