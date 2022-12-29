@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>1223HW</title>
+</head>
+<body>
+	
+	
+
+	<script>
+		var result,num1,num2,operate;
+		num1=parseInt(window.prompt('Number1'));
+		num2=parseInt(window.prompt('Number2'));
+		operate=window.prompt('Operate way? (Please only answer +-*/)')
+		if(operate=="+"){
+			result=num1+num2;
+			document.writeln(result);
+		}else if(operate=="-"){
+			result=num1-num2;
+			document.writeln(result);
+		}else if(operate=="*"){
+			result=num1*num2;
+			document.writeln(result);
+		}else if(operate=="/"){
+			result=num1/num2;
+			document.writeln(result);
+		}else{
+			document.writeln('Try Again,something go wrong.')
+		}
+	</script>
+
+
+</body>
+</html>
